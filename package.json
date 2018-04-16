@@ -1,0 +1,32 @@
+{
+  "name": "local-ip-webpack-plugin",
+  "version": "0.1.1",
+  "description": "Inject local ip address into webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kokororin/local-ip-webpack-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "ip"
+  ],
+  "author": "kokororin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kokororin/local-ip-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/kokororin/local-ip-webpack-plugin#readme",
+  "dependencies": {
+    "ip": "^1.1.5"
+  },
+  "devDependencies": {
+    "webpack": "^3.0.0"
+  },
+  "peerDependencies": {
+    "webpack": "*"
+  }
+}
